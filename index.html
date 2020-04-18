@@ -39,10 +39,39 @@
                     <div class="user-nav__user">
                         <img src="img/me2.jpg" alt="user photo" class="user-nav__user-photo">
                         <span class="user-nav__user-name">Marta</span>
+
+                        <div class="user-nav__profile-dropdown">
+                            <ul class="user-nav__profile-list">
+                                <li class="user-nav__profile-item">
+                                    <a href="#" class="user-nav__profile-link">
+                                        <svg class="user-nav__profile-icon">
+                                            <use xlink:href="img/sprite.svg#icon-user"></use>
+                                        </svg>
+                                        <span class="user-nav__profile-link">Profile</span>
+                                    </a>
+                                </li>
+                                <li class="user-nav__profile-item">
+                                    <a href="#" class="user-nav__profile-link">
+                                        <svg class="user-nav__profile-icon">
+                                            <use xlink:href="img/sprite.svg#icon-cog"></use>
+                                        </svg>
+                                        <span class="user-nav__profile-link">Settings</span>
+                                    </a>
+                                </li>
+                                <li class="user-nav__profile-item">
+                                    <a href="#" class="user-nav__profile-link">
+                                        <svg class="user-nav__profile-icon">
+                                            <use xlink:href="img/sprite.svg#icon-log-out"></use>
+                                        </svg>
+                                        <span class="user-nav__profile-link">Logout</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </nav>
-
             </header>
+
             <div class="content" >
                 <nav class="sidebar">
                     <ul class="side-nav">
@@ -84,18 +113,25 @@
                     </div>
                 </nav>
 
-
-
                 <main class="hotel-view">
                     <div class="gallery">
                         <figure class="gallery__item">
+                            <div class="gallery__overlay"> </div>
                             <img src="img/hotel-1.jpg" alt="Photo of hotel 1" class="gallery__photo">
+                            <figcaption class="gallery__caption">Night</figcaption>
+
                         </figure>
                         <figure class="gallery__item">
+                            <div class="gallery__overlay"></div>
                             <img src="img/hotel-2.jpg" alt="Photo of hotel 2" class="gallery__photo">
+                            <figcaption class="gallery__caption">Morning</figcaption>
+
                         </figure>
                         <figure class="gallery__item">
+                            <div class="gallery__overlay"></div>
                             <img src="img/hotel-3.jpg" alt="Photo of hotel 3" class="gallery__photo">
+                            <figcaption class="gallery__caption">Sunset</figcaption>
+
                         </figure>
                     </div>
 
@@ -203,6 +239,9 @@
                             <span class="btn__visible">Book now</span>
                             <span class="btn__invisible">Only 4 rooms left</span>
                         </button>
+                    </div>
+                    <div class="legal-footer">
+                        &copy; 2020 by MartaK. All rights reserved.
                     </div>
 
                 </main>
